@@ -33,7 +33,7 @@ header {
 }
 
 header .wrapper {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 nav {
@@ -51,9 +51,9 @@ nav {
 
 .menu a {
   display: inline-block;
-  padding-top: 8px;
+  padding-top: 5px;
   border-top: 3px solid transparent;
-  line-height: 42px;
+  line-height: 45px;
   margin-left: 38px;
   color: #262626;
 }
@@ -92,7 +92,7 @@ nav {
   left: 0;
   right: 0;
   margin: 0 auto;
-  bottom: 5%;
+  bottom: 30px;
   width: 23px;
 }
 
@@ -120,4 +120,8 @@ nav {
 
 .about-us-text p {
   color: #fff;
+}
+
+.services {
+  background: #70bfff;
 }
